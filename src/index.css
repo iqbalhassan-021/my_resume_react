@@ -1,13 +1,593 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+*{
+  padding: 0px;
+  margin: 0%;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.banner{
+  width: 100%;
+  height: 10vh;
+  background-color: white;
+  padding-top: 10px;
+}
+.banner a{
+  text-decoration: none;
+}
+.banner button{
+  height: 80%;
+  width: auto;
+  padding-left: 10px;
+  padding-right: 10px;
+  cursor: pointer;
+  border: none;
+  color: white;
+  background-color: #FF8C00;
+  display: block;
+  margin-left: auto;
+  outline: none;
+  margin-right: 10px;
+  border-radius: 5px;
+  font-size: 12px;
+}
+.nameHolder{
+  height: 15vh;
+  width: 100%;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: gray;
+}
+.navBar{
+  height: 10vh;
+  width: 100%;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: gray;
+  
+}
+.navBar a{
+  text-decoration: none;
+  color: gray;
+  margin-left: 20px;
+  font-size: 20px;
+}
+.navBar a:hover{
+  color: #FF8C00;
+}
+.heroContainer{
+  width: 100%;
+  height: 65vh;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+}
+.imageHolder{
+  height: 100%;
+  width: 50%;
+  background-color: white;
+
+}
+.imageHolder img{
+  height: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-bottom-left-radius: 12px;
+ 
+}
+.aboutHolder{
+  padding-top: 50px;
+  height: 100%;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+
+  color: gray;
+}
+.aboutHolder p{
+  width: 60%;
+  text-align: justify;
+}
+.aboutHolder button{
+  height: 30px;
+  font-size: 12px;
+  margin-top: 12px;
+  width: 100px;
+  border-radius: 8px;
+  cursor: pointer;
+  padding-left: 10px;
+  padding-right: 10px;
+  cursor: pointer;
+  border: none;
+  color: white;
+  background-color: #FF8C00;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.Qualification{
+  height: 100vh;
+  width: 100%;
+  display: flex;
+ justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  
+  background-image: url("./assets/hands.png");
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+ 
 }
+::-webkit-scrollbar{
+  width: 10px;
+  
+}
+::-webkit-scrollbar-thumb{
+  background-color: #FF8C00;
+  height: 50%;
+  border-radius: 12px;
+}
+.Qualification {
+  color: gray;
+}
+.Qualification h1{
+  color: gray;
+}
+.Qualification h1:nth-child(2){
+  font-size: 176px;
+  color: #FF8C00;
+}
+.Qualification h1:nth-child(3){
+  text-shadow: 2px 4px 1px silver;
+}
+.skills{
+  height: 200vh;
+
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+}
+.skills h1{
+  color: gray;
+}
+.skillContainer{
+  margin-top: 20px;
+  height: 90%;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); 
+  gap: 20px;
+}
+.skillCard{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
+  height: 350px;
+  width: 200px;
+  background-color: white;
+  
+}
+.skillHolder{
+  height: 50%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.outerLayer{
+  height: 150px;
+  width: 150px;
+  background-color: #FF8C00;
+  border-radius: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.innerLayer{
+  height: 90%;
+  width: 90%;
+  background-color: white;
+  border-radius: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 45px;
+  color: #FF8C00;
+}
+.textContainer{
+  text-align: center;
+  height: 50%;
+  width: 100%;
+ 
+  color: gray;
+  flex-direction: column;
+}
+.workingExp{
+  width: 100%;
+  height: 65vh;
+  display: flex;
+  flex-direction: row;
+}
+.expTextHolder{
+  width: 50%;
+  height: 100%;
+  padding-left: 100px;
+ 
+}
+.expTextHolder h1{
+  color: #FF8C00;
+  font-size: 76px;
+
+}
+.expHolder{
+   width: 50%;
+  height: 100%;
+  background-color: white;
+  color: gray;
+}
+.expHolder p{
+  width: 90%;
+  text-align: justify;
+
+}
+.expHolder a{
+  text-decoration: none;
+ color: #FF8C00;
+}
+.navBar a:nth-child(1){
+  color: #FF8C00;
+}
+.hidden{
+  display: none;
+  position: fixed;
+}
+.expHolder img{
+  height: 100%;
+}
+.centerimage{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.aboutMe{
+  height: 60vh;
+  width: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.aboutContainer{
+  height: 80%;
+  width: 50%;
+ 
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+
+}
+.myImage{
+  height: 200px;
+  width: 200px;
+
+  border-radius: 100px;
+  background-image: url("./assets/postImage.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 8px solid #FF8C00;
+}
+.aboutInfo{
+  margin-left: 22px;
+  height: 150px;
+  width: auto;
+  color: gray;
+
+ 
+}
+.footer{
+  height: 30vh;
+  width: 100%;
+
+  background-color: #FF8C00;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+  font-size: 16px;
+}
+.footer a{
+  text-decoration: none;
+  color: white;
+}
+.footer i{
+  margin-left: 22px;
+}
+.links{
+  height: 50%;
+  width: 100%;
+
+  background-color: #FF8C00;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  color: white;
+  font-size: 16px;
+}
+.manue{
+  height: 5vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: none;
+}
+.manue button{
+  height: 100%;
+  background-color: white;
+  color: #FF8C00;
+  border: none;
+  font-size: 16px;
+  outline: none;
+}
+.manuWrapper{
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: #FF8C00;
+  color: white;
+  position: absolute;
+  display: none;
+}
+.manuWrapper a{
+  font-size: 16px;
+
+  color: white;
+  margin-top: 12px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+
+@media (max-width:760px){
+  .banner{
+      width: 100%;
+      height: 5vh;
+  }
+  .banner button{
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 95%;
+      font-size: 12px;
+  }
+  .nameHolder{
+      height: 5vh;
+ 
+  }
+  .manue{
+      height: 5vh;
+      display: flex;
+      font-size: 12px;
+      font-size: 16px;
+  }
+  .navBar{
+      display: none;
+  }
+  .heroContainer{
+      display: flex;
+      flex-direction: column;
+  
+      height: 85vh;
+  }
+  .imageHolder{
+      height: 50%;
+      width: 100%;
+  }
+  .nameHolder h1{
+      font-size: 26px;
+
+  }
+  .aboutHolder h1{
+      font-size: 26px;
+
+  }
+  .Qualification h1{
+      font-size: 26px;
+
+  }
+  .aboutHolder{
+      height: 50%;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    
+  }
+  .aboutHolder p{
+      width: 95%;
+      text-align: center;
+  }
+  .aboutHolder button{
+      font-size: 12px;
+  }
+  .Qualification{
+    
+      height: 50vh;
+    
+  }
+  .skills{
+      height: 360vh;
+  
+  }
+  .skillContainer{
+    
+      grid-template-columns: repeat(1, 1fr); 
+ 
+  }
+  .skillContainer{
+      height: 95%;
+      width: 100%;
+  }
+  .workingExp{
+      height: 70vh;
+      display: flex;
+      flex-direction: column;
+  }
+  .expTextHolder{
+      height: 20%;
+      width: 100%;
+   
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      padding-left: 0px;
+  }
+  .expHolder{
+      height: 80%;
+      width: 100%;
+      padding-left: 0px;
+  }
+  .expTextHolder h1{
+      padding-left: 0px;
+      margin-left: 0px;
+      font-size: 36px;
+      display: block;
+  }
+  .expHolder p{
+      font-size: 12px;
+      width: 95%;
+  }
+  .aboutMe{
+      height: 50vh;
+   
+      display: flex;
+      flex-direction: column;
+  }
+  .aboutContainer{
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+  }
+  .aboutInfo{
+      margin-left: 0px;
+      margin-top: 10px;
+
+      
+  }
+  .footer{
+      height: 30vh;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+  }
+  .links{
+      height: 50%;
+      display: flex;
+      flex-direction: column;
+  }
+  .links i{
+      margin-left: 0px;
+      margin-top: 10px;
+  }
+  .footer h1{
+      font-size: 26px;
+  }
+
+}
+
+
+
+
+@media (min-width:768px) and (max-width:1010px) {
+ .skills{
+  height: 200vh;
+ }
+ .skillContainer{
+  height: 95%;
+ }
+  .skillContainer{
+    
+      grid-template-columns: repeat(2, 1fr); 
+ 
+  }
+  .banner{
+      height: 5vh;
+  }
+.nameHolder{
+  height: 5vh;
+}
+.nameHolder h1{
+  font-size: 26px;
+}
+  .navBar a{
+      font-size: 12px;
+  }
+  .heroContainer{
+      height: 50vh;
+  }
+  .imageHolder{
+      height: 100%;
+  }
+  .aboutHolder p{
+      width: 90%;
+  }
+  .Qualification{
+      height: 50vh;
+  }
+  .workingExp{
+      height: 60vh;
+  }
+  .expTextHolder{
+      padding-left: 10px;
+  }
+  .expTextHolder h1{
+      font-size: 36px;
+  }
+  .aboutMe{
+      height: 30vh;
+  }
+}
+@media (min-width:1920px) {
+  .skills{
+      height: 100vh;
+  }
+  .skillContainer{
+    
+      grid-template-columns: repeat(4, 1fr); 
+ 
+  }
+  .aboutMe{
+      height: 30vh;
+  }
+  .workingExp{
+      height: 60vh;
+  }
+  .banner{
+      height: 5vh;
+  }
+  .heroContainer{
+      height: 70vh;
+  }
+}
+
+
+
+
+
