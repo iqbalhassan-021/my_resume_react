@@ -1,590 +1,742 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Rock+Salt|Shadows+Into+Light|Cedarville+Cursive');
 *{
-  padding: 0px;
-  margin: 0%;
-  box-sizing: border-box;
-  scroll-behavior: smooth;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 0px;
+    margin: 0%;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .banner{
-  width: 100%;
-  height: 10vh;
-  background-color: white;
-  padding-top: 10px;
+    width: 100%;
+    height: 10vh;
+    background-color: #E50332;
+    padding-top: 10px;
 }
 .banner a{
-  text-decoration: none;
+    text-decoration: none;
 }
 .banner button{
-  height: 80%;
-  width: auto;
-  padding-left: 10px;
-  padding-right: 10px;
-  cursor: pointer;
-  border: none;
-  color: white;
-  background-color: #FF8C00;
-  display: block;
-  margin-left: auto;
-  outline: none;
-  margin-right: 10px;
-  border-radius: 5px;
-  font-size: 12px;
+    height: 80%;
+    width: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    cursor: pointer;
+    border: none;
+    color: white;
+    background-color: #FF8C00;
+    display: block;
+    margin-left: auto;
+    outline: none;
+    margin-right: 10px;
+    border-radius: 5px;
+    font-size: 12px;
 }
 .nameHolder{
-  height: 15vh;
-  width: 100%;
-  background-color: white;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: gray;
+    height: 15vh;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: gray;
 }
 .navBar{
-  height: 10vh;
-  width: 100%;
-  background-color: white;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: gray;
-  
+    height: 10vh;
+    width: 100%;
+    background-color: #E50332;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    
 }
 .navBar a{
-  text-decoration: none;
-  color: gray;
-  margin-left: 20px;
-  font-size: 20px;
+    text-decoration: none;
+    color: white;
+    margin-left: 20px;
+    font-size: 20px;
 }
 .navBar a:hover{
-  color: #FF8C00;
+    color: black;
 }
+
 .heroContainer{
-  width: 100%;
-  height: 65vh;
-  background-color: white;
-  display: flex;
-  flex-direction: row;
+    width: 100%;
+    height: 100vh;
+    background-color: #E50332;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    text-align: center;
 }
-.imageHolder{
-  height: 100%;
-  width: 50%;
-  background-color: white;
+
+.heroContainer p{
+    width: 60%;
+    margin-top: 10px;
+    color: white;
 
 }
-.imageHolder img{
-  height: 100%;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  border-bottom-left-radius: 12px;
- 
+.Upper{
+    color: white;
+    font-size: 100px;
 }
-.aboutHolder{
-  padding-top: 50px;
-  height: 100%;
-  width: 50%;
-  display: flex;
-  flex-direction: column;
+.Lower{
+    margin-top: -80px;
+    color: black;
+    font-size: 110px;
+}
+.sign{
+   font-family: 'Rock Salt', cursive;
+   font-size: 36px; 
+     text-align: center;
 
-  color: gray;
-}
-.aboutHolder p{
-  width: 60%;
-  text-align: justify;
-}
-.aboutHolder button{
-  height: 30px;
-  font-size: 12px;
-  margin-top: 12px;
-  width: 100px;
-  border-radius: 8px;
-  cursor: pointer;
-  padding-left: 10px;
-  padding-right: 10px;
-  cursor: pointer;
-  border: none;
-  color: white;
-  background-color: #FF8C00;
+
+   
 }
 
 .Qualification{
-  height: 100vh;
-  width: 100%;
-  display: flex;
- justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  
-  background-image: url("./assets/hands.png");
-  background-position: 50% 50%;
-  background-repeat: no-repeat;
-  background-size: cover;
- 
+    height: 100vh;
+    width: 100%;
+    display: flex;
+   justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+    background-image: url("./assets/hands.png");
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    background-color: white;
+   
 }
 ::-webkit-scrollbar{
-  width: 10px;
-  
+    display: none;
 }
 ::-webkit-scrollbar-thumb{
-  background-color: #FF8C00;
-  height: 50%;
-  border-radius: 12px;
+    background-color: black;
+    height: 50%;
+    border-radius: 12px;
 }
 .Qualification {
-  color: gray;
+    color: black;
 }
 .Qualification h1{
-  color: gray;
+    color: #E50332;
 }
 .Qualification h1:nth-child(2){
-  font-size: 176px;
-  color: #FF8C00;
+    font-size: 176px;
+    color: #E50332;
 }
 .Qualification h1:nth-child(3){
-  text-shadow: 2px 4px 1px silver;
+    
 }
 .skills{
-  height: 200vh;
-
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-
+    height: 200vh;
+ 
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+  
 }
 .skills h1{
-  color: gray;
+    color: #E50332;
 }
 .skillContainer{
-  margin-top: 20px;
-  height: 90%;
-  width: 100%;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr); 
-  gap: 20px;
+    margin-top: 20px;
+    height: 90%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 20px;
 }
 .skillCard{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  
-  height: 350px;
-  width: 200px;
-  background-color: white;
-  
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+    height: 350px;
+    width: 200px;
+    background-color: white;
+    
 }
 .skillHolder{
-  height: 50%;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+    height: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .outerLayer{
-  height: 150px;
-  width: 150px;
-  background-color: #FF8C00;
-  border-radius: 100px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+    height: 150px;
+    width: 150px;
+    background-color: #E50332;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .innerLayer{
-  height: 90%;
-  width: 90%;
-  background-color: white;
-  border-radius: 100px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 45px;
-  color: #FF8C00;
+    height: 90%;
+    width: 90%;
+    background-color: white;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 45px;
+    color: black;
 }
 .textContainer{
-  text-align: center;
-  height: 50%;
-  width: 100%;
- 
-  color: gray;
-  flex-direction: column;
+    text-align: center;
+    height: 50%;
+    width: 100%;
+   
+    color: black;
+    flex-direction: column;
 }
 .workingExp{
-  width: 100%;
-  height: 65vh;
-  display: flex;
-  flex-direction: row;
+    width: 100%;
+    height: 65vh;
+    display: flex;
+    flex-direction: row;
 }
 .expTextHolder{
-  width: 50%;
-  height: 100%;
-  padding-left: 100px;
- 
+    width: 50%;
+    height: 100%;
+    padding-left: 100px;
+   
 }
 .expTextHolder h1{
-  color: #FF8C00;
-  font-size: 76px;
-
+    color: #FF8C00;
+    font-size: 76px;
+ 
 }
 .expHolder{
-   width: 50%;
-  height: 100%;
-  background-color: white;
-  color: gray;
+     width: 50%;
+    height: 100%;
+    background-color: white;
+    color: gray;
 }
 .expHolder p{
-  width: 90%;
-  text-align: justify;
+    width: 90%;
+    text-align: justify;
 
 }
 .expHolder a{
-  text-decoration: none;
- color: #FF8C00;
+    text-decoration: none;
+   color: #FF8C00;
 }
 .navBar a:nth-child(1){
-  color: #FF8C00;
+    color: black;
 }
 .hidden{
-  display: none;
-  position: fixed;
+    display: none;
+    position: fixed;
 }
 .expHolder img{
-  height: 100%;
+    height: 100%;
 }
 .centerimage{
-  display: flex;
-  justify-content: center;
-  align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.expandpro{
+    height: 100vh;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+
+}
+
+.workingexp{
+    background-color: #E50332;
+    height: 85%;
+    width: 45%;
+
+    border-radius: 12px;
+    padding: 10px;
+    color: white;
+
+    box-shadow: 1px 1px 10px silver;
+}
+.workingexp button{
+    margin-top: 20px;
+    background-color: black;
+    height: 30px;
+    width: 120px;
+    border-radius: 12px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    color: white;
+    display: block;
+    margin-left: auto;
+   
+}
+.workingexp a{
+    text-decoration: none;
+   
+}
+.projects{
+    background-color: black;
+    height: 85%;
+    width: 45%;
+
+    border-radius: 12px;
+    margin-left: 40px;
+    padding: 10px;
+    box-shadow: 1px 1px 10px silver;
+    color: white;
+}
+.projects button{
+    margin-top: 20px;
+    background-color:#E50332;
+    height: 30px;
+    width: 120px;
+    border-radius: 12px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    color: white;
+    display: block;
+    margin-left: auto;
+    
+   
+}
+.projects a{
+    text-decoration: none;
+   
 }
 .aboutMe{
-  height: 60vh;
-  width: 100%;
+    height: 60vh;
+    width: 100%;
 
-  display: flex;
-  justify-content: center;
-  align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .aboutContainer{
-  height: 80%;
-  width: 50%;
- 
+    height: 80%;
+    width: 50%;
+   
 
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: row;
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+  
 }
 .myImage{
-  height: 200px;
-  width: 200px;
+    height: 200px;
+    width: 200px;
 
-  border-radius: 100px;
-  background-image: url("./assets/postImage.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  border: 8px solid #FF8C00;
+    border-radius: 100px;
+    background-image: url("./assets/postImage.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 8px solid black;
 }
 .aboutInfo{
-  margin-left: 22px;
-  height: 150px;
-  width: auto;
-  color: gray;
+    margin-left: 22px;
+    height: 150px;
+    width: auto;
+    color: gray;
 
- 
+   
 }
 .footer{
-  height: 30vh;
-  width: 100%;
+    height: 30vh;
+    width: 100%;
 
-  background-color: #FF8C00;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  color: white;
-  font-size: 16px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    color: white;
+    font-size: 16px;
 }
 .footer a{
-  text-decoration: none;
-  color: white;
+    text-decoration: none;
+    color: white;
 }
 .footer i{
-  margin-left: 22px;
+    margin-left: 22px;
 }
 .links{
-  height: 50%;
-  width: 100%;
+    height: 50%;
+    width: 25%;
 
-  background-color: #FF8C00;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: row;
-  color: white;
-  font-size: 16px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    color: white;
+    font-size: 16px;
+}
+
+.webLinks,.aboutMeFooter,.mycontactInfo,.downloadmyResume{
+    height: 100%;
+    width: 25%;
+
+    background-color: black;
+  
+    color: white;
+    font-size: 16px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.downloadmyResume button{
+    height: 40px;
+    width: 70%;
+    border: none;
+    background-color: #E50332;
+    color: white;
+    cursor: pointer;
+    outline: none;
+    border-radius: 8px;
 }
 .manue{
-  height: 5vh;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  display: none;
+    height: 5vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
 }
 .manue button{
-  height: 100%;
-  background-color: white;
-  color: #FF8C00;
-  border: none;
-  font-size: 16px;
-  outline: none;
+    height: 100%;
+    background-color: white;
+    color: black;
+    border: none;
+    font-size: 16px;
+    outline: none;
 }
 .manuWrapper{
-  height: 100vh;
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  background-color: #FF8C00;
-  color: white;
-  position: absolute;
-  display: none;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #E50332;
+    color: white;
+    position: absolute;
+    display: none;
 }
 .manuWrapper a{
-  font-size: 16px;
+    font-size: 16px;
 
-  color: white;
-  margin-top: 12px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  
+    color: white;
+    margin-top: 12px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
 }
 
 
 @media (max-width:760px){
-  .banner{
-      width: 100%;
-      height: 5vh;
-  }
-  .banner button{
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
-      width: 95%;
-      font-size: 12px;
-  }
-  .nameHolder{
-      height: 5vh;
- 
-  }
-  .manue{
-      height: 5vh;
-      display: flex;
-      font-size: 12px;
-      font-size: 16px;
-  }
-  .navBar{
-      display: none;
-  }
-  .heroContainer{
-      display: flex;
-      flex-direction: column;
-  
-      height: 85vh;
-  }
-  .imageHolder{
-      height: 50%;
-      width: 100%;
-  }
-  .nameHolder h1{
-      font-size: 26px;
-
-  }
-  .aboutHolder h1{
-      font-size: 26px;
-
-  }
-  .Qualification h1{
-      font-size: 26px;
-
-  }
-  .aboutHolder{
-      height: 50%;
-      width: 100%;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      text-align: center;
-    
-  }
-  .aboutHolder p{
-      width: 95%;
-      text-align: center;
-  }
-  .aboutHolder button{
-      font-size: 12px;
-  }
-  .Qualification{
-    
-      height: 50vh;
-    
-  }
-  .skills{
-      height: 360vh;
-  
-  }
-  .skillContainer{
-    
-      grid-template-columns: repeat(1, 1fr); 
- 
-  }
-  .skillContainer{
-      height: 95%;
-      width: 100%;
-  }
-  .workingExp{
-      height: 70vh;
-      display: flex;
-      flex-direction: column;
-  }
-  .expTextHolder{
-      height: 20%;
-      width: 100%;
+    .banner{
+        width: 100%;
+        height: 5vh;
+    }
+    .banner button{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 95%;
+        font-size: 12px;
+    }
+    .nameHolder{
+        height: 5vh;
    
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      flex-direction: column;
-      padding-left: 0px;
-  }
-  .expHolder{
-      height: 80%;
-      width: 100%;
-      padding-left: 0px;
-  }
-  .expTextHolder h1{
-      padding-left: 0px;
-      margin-left: 0px;
-      font-size: 36px;
-      display: block;
-  }
-  .expHolder p{
-      font-size: 12px;
-      width: 95%;
-  }
-  .aboutMe{
-      height: 50vh;
-   
-      display: flex;
-      flex-direction: column;
-  }
-  .aboutContainer{
-      height: 100vh;
-      display: flex;
-      flex-direction: column;
-  }
-  .aboutInfo{
-      margin-left: 0px;
-      margin-top: 10px;
+    }
+    .manue{
+        height: 5vh;
+        display: flex;
+        font-size: 12px;
+        font-size: 16px;
+    }
+    .navBar{
+        display: none;
+    }
+    .heroContainer{
+        display: flex;
+        flex-direction: column;
+    
+        height: 40vh;
+    }
+    .imageHolder{
+        height: 50%;
+        width: 100%;
+    }
+    .nameHolder h1{
+        font-size: 26px;
 
+    }
+    .aboutHolder h1{
+        font-size: 26px;
+
+    }
+    .Qualification h1{
+        font-size: 26px;
+
+    }
+    .aboutHolder{
+        height: 50%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
       
-  }
-  .footer{
-      height: 30vh;
-      width: 100%;
-      display: flex;
-      flex-direction: column;
-  }
-  .links{
-      height: 50%;
-      display: flex;
-      flex-direction: column;
-  }
-  .links i{
-      margin-left: 0px;
-      margin-top: 10px;
-  }
-  .footer h1{
-      font-size: 26px;
-  }
+    }
+    .aboutHolder p{
+        width: 95%;
+        text-align: center;
+    }
+    .aboutHolder button{
+        font-size: 12px;
+    }
+    .Qualification{
+      
+        height: 50vh;
+      
+    }
+    .skills{
+        height: 360vh;
+    
+    }
+    .skillContainer{
+      
+        grid-template-columns: repeat(1, 1fr); 
+   
+    }
+    .skillContainer{
+        height: 95%;
+        width: 100%;
+    }
+    .workingExp{
+        height: 70vh;
+        display: flex;
+        flex-direction: column;
+    }
+    .expTextHolder{
+        height: 20%;
+        width: 100%;
+     
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding-left: 0px;
+    }
+    .expHolder{
+        height: 80%;
+        width: 100%;
+        padding-left: 0px;
+    }
+    .expTextHolder h1{
+        padding-left: 0px;
+        margin-left: 0px;
+        font-size: 36px;
+        display: block;
+    }
+    .expHolder p{
+        font-size: 12px;
+        width: 95%;
+    }
+    .aboutMe{
+        height: 50vh;
+     
+        display: flex;
+        flex-direction: column;
+    }
+    .aboutContainer{
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+    }
+    .aboutInfo{
+        margin-left: 0px;
+        margin-top: 10px;
 
+        
+    }
+    .footer{
+        height: 30vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .links{
+        height: 50%;
+        display: flex;
+        flex-direction: column;
+    }
+    .links i{
+        margin-left: 0px;
+        margin-top: 10px;
+    }
+    .footer h1{
+        font-size: 26px;
+    }
+.heroContainer{
+    height: 90vh;
+}
+
+    .Upper{
+    color: white;
+    font-size: 50px;
+}
+.Lower{
+    margin-top: -50px;
+    color: black;
+    font-size: 60px;
+}
+.sign{
+   font-family: 'Rock Salt', cursive;
+   font-size: 16px; 
+   
+    width: 100%;
+  text-align: center;
+  display: block;
+}
+.heroContainer p{
+    width: 90%;
+    text-align: center;
+}
+.expandpro{
+    height: auto;
+    padding: 30px;
+    width: 100%;
+    flex-direction: column;
+}
+.workingexp{
+    width: 95%;
+    height: auto;
+}
+.projects{
+     width: 95%;
+    height: auto;
+    margin-left: 0px;
+    margin-top: 30px;
+}
+
+
+
+.webLinks,.aboutMeFooter,.mycontactInfo,.downloadmyResume{
+    height: auto;
+    width: 100%;
+
+    background-color: black;
+    text-align: center;
+}
+.downloadmyResume{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.aboutMe{
+    height: auto;
+}
+.downloadmyResume button{
+    width: 300px;
+}
 }
 
 
 
 
 @media (min-width:768px) and (max-width:1010px) {
- .skills{
-  height: 200vh;
- }
- .skillContainer{
-  height: 95%;
- }
-  .skillContainer{
-    
-      grid-template-columns: repeat(2, 1fr); 
- 
-  }
-  .banner{
-      height: 5vh;
-  }
+   .skills{
+    height: 200vh;
+   }
+   .skillContainer{
+    height: 95%;
+   }
+    .skillContainer{
+      
+        grid-template-columns: repeat(2, 1fr); 
+   
+    }
+    .banner{
+        height: 5vh;
+    }
 .nameHolder{
-  height: 5vh;
+    height: 5vh;
 }
 .nameHolder h1{
-  font-size: 26px;
+    font-size: 26px;
 }
-  .navBar a{
-      font-size: 12px;
-  }
-  .heroContainer{
-      height: 50vh;
-  }
-  .imageHolder{
-      height: 100%;
-  }
-  .aboutHolder p{
-      width: 90%;
-  }
-  .Qualification{
-      height: 50vh;
-  }
-  .workingExp{
-      height: 60vh;
-  }
-  .expTextHolder{
-      padding-left: 10px;
-  }
-  .expTextHolder h1{
-      font-size: 36px;
-  }
-  .aboutMe{
-      height: 30vh;
-  }
+    .navBar a{
+        font-size: 12px;
+    }
+    .heroContainer{
+        height: 50vh;
+    }
+    .imageHolder{
+        height: 100%;
+    }
+    .aboutHolder p{
+        width: 90%;
+    }
+    .Qualification{
+        height: 50vh;
+    }
+    .workingExp{
+        height: 60vh;
+    }
+    .expTextHolder{
+        padding-left: 10px;
+    }
+    .expTextHolder h1{
+        font-size: 36px;
+    }
+    .aboutMe{
+        height: 30vh;
+    }
 }
 @media (min-width:1920px) {
-  .skills{
-      height: 100vh;
-  }
-  .skillContainer{
-    
-      grid-template-columns: repeat(4, 1fr); 
- 
-  }
-  .aboutMe{
-      height: 30vh;
-  }
-  .workingExp{
-      height: 60vh;
-  }
-  .banner{
-      height: 5vh;
-  }
-  .heroContainer{
-      height: 70vh;
-  }
+    .skills{
+        height: 100vh;
+    }
+    .skillContainer{
+      
+        grid-template-columns: repeat(4, 1fr); 
+   
+    }
+    .aboutMe{
+        height: 30vh;
+    }
+    .workingExp{
+        height: 60vh;
+    }
+    .banner{
+        height: 5vh;
+    }
+    .heroContainer{
+        height: 70vh;
+    }
+    .heroContainer{
+        height: 90vh;
+    }
+    .expandpro{
+        height: 60vh;
+    }
 }
 
 

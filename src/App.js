@@ -17,15 +17,15 @@ function App() {
   return (
     <>
     <ManueWrapper/>
-    <Banner/>
+   
     <Manue/>
-    <NameHolder/>
+  
     <NavBar/>
     <HeroContainer/>
     <Qualification/>
     <Skills/>
     <WorkExp/>
-    <Project/>
+
     <About/>
     <Footer/>
     </>

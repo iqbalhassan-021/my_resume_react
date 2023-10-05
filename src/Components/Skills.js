@@ -2,8 +2,8 @@ function Skills(){
     return(
         <div className="skills" id="skills">
         <h1>S K I L L S</h1>
-        <div className="skillContainer" data-aos="fade-up" data-aos-delay="100">
-            <div className="skillCard grid-item">
+        <div className="skillContainer" >
+            <div className="skillCard grid-item" data-aos="fade-up" data-aos-delay="100">
                 <div className="skillHolder">
                     <div className="outerLayer">
                         <div className="innerLayer">
@@ -20,7 +20,7 @@ function Skills(){
                     <p>LARAVEL</p>
                 </div>
             </div>
-            <div className="skillCard grid-item">
+            <div className="skillCard grid-item" data-aos="fade-up" data-aos-delay="100">
                 <div className="skillHolder">
                     <div className="outerLayer">
                         <div className="innerLayer">
@@ -36,7 +36,7 @@ function Skills(){
                     <p>FLUTTER(learning)</p>
                 </div>
             </div>
-            <div className="skillCard grid-item">
+            <div className="skillCard grid-item" data-aos="fade-up" data-aos-delay="100">
                 <div className="skillHolder">
                     <div className="outerLayer">
                         <div className="innerLayer">
@@ -49,7 +49,7 @@ function Skills(){
                     <p>WINDOWS.FORMS</p>
                 </div>
             </div>
-            <div className="skillCard grid-item">
+            <div className="skillCard grid-item" >
                 <div className="skillHolder">
                     <div className="outerLayer">
                         <div className="innerLayer">
@@ -63,7 +63,7 @@ function Skills(){
                     <p>ADOBE XD</p>
                 </div>
             </div>
-            <div className="skillCard grid-item">
+            <div className="skillCard grid-item" data-aos="fade-up" data-aos-delay="100">
                 <div className="skillHolder">
                     <div className="outerLayer">
                         <div className="innerLayer">
@@ -92,7 +92,7 @@ function Skills(){
                     <p>PYTHON</p>
                 </div>
             </div>
-            <div className="skillCard grid-item">
+            <div className="skillCard grid-item" data-aos="fade-up" data-aos-delay="100">
                 <div className="skillHolder">
                     <div className="outerLayer">
                         <div className="innerLayer">
@@ -106,7 +106,7 @@ function Skills(){
                     <p>AUTOMATED</p>
                 </div>
             </div>
-            <div className="skillCard grid-item">
+            <div className="skillCard grid-item" data-aos="fade-up" data-aos-delay="100">
                 <div className="skillHolder">
                     <div className="outerLayer">
                         <div className="innerLayer">
